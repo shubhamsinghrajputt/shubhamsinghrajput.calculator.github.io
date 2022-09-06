@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+body{
+    background-color: yellow;
+}
+
+.container{
+    width: 360px;
+    height: 100vh;
+    background-color: rgb(204, 63, 63);
+    margin: 100px auto;
+    border-radius: 1rem;
+    padding: 1.2rem;
+}
+
+#billContainer{
+    margin-top: 4rem;
+}
+
+.common-Container{
+    margin-top: 1.4rem;
+}
+.title-bar{
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 0.8rem;
+    background-color:rgb(47, 47, 106);
+    border-radius: 1.4rem;
+    color: white;
+    margin-top: 0.8rem;
+}
+
+#tipsAmountInput, #billAmountInput{
+    font-size: 1.2rem;
+    background: none;
+    outline: none;
+    border: none;
+}
+
+#button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls{
+    display: flex;
+    align-items: center
+}
+
+.buttonContainer{
+    background: rgba(18, 14, 11, 0.608);
+    display: grid;
+    place-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+}
+button{
+    background: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.span{
+    color: #6163c3;
+    
+}
+
+#noOfPeople{
+    font-size: 1.6rem;
+    margin: 1.08rem;
+}
+
+.total{
+    font-size: 2rem;
+}
+
+.result-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
